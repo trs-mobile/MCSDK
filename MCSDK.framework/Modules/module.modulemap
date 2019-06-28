@@ -1,0 +1,6 @@
+framework module MCSDK {
+  umbrella header "MCSDK.h"
+
+  export *
+  module * { export * }
+}
