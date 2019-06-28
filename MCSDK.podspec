@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name         = "TRSMCSDK"
+  s.name         = "MCSDK"
   s.version      = "1.0"
   s.summary      = "安徽媒体云采编SDK"
   s.description  = <<-DESC
