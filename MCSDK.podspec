@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MCSDK"
-  s.version      = "1.0"
+  s.version      = "1.0.0"
   s.summary      = "安徽媒体云采编SDK"
   s.description  = <<-DESC
                   安徽媒体云采编SDK，封装采编接口如下：
@@ -22,10 +22,8 @@ Pod::Spec.new do |s|
   s.author       = { "wu.jianjun" => "wu.jianjun@trs.com.cn" }
   s.source       = { :git => "https://github.com/trs-mobile/MCSDK.git", :tag => "#{s.version}" }
 
-  s.vendored_frameworks = "MCSDK/MCSDK.framework"
-  s.source_files = 'MCSDK/MCSDK.framework/Headers/*.{h}'
-  s.public_header_files = 'MCSDK/MCSDK.framework/Headers/MCSDK.h'
-
-  s.dependency "AFNetworking" #工程依赖的第三方库
+  s.vendored_frameworks = "MCSDK.framework"
+  s.source_files = 'MCSDK.framework/Headers/*.{h}'
+  s.public_header_files = 'MCSDK.framework/Headers/MCSDK.h'
 
 end
